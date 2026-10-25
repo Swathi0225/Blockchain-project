@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+.pytest_cache/
+outputs/*
+!outputs/.gitkeep
+
+# Paillier private keys
+outputs/private_key.json
+outputs/public_key.json
+
+# Keep private encryption keys out of Git
+secure_keys/
